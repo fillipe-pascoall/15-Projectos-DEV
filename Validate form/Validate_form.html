@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Fillipe Pascoall">
+  <meta name="reply-to" content="pascoalfilipe5@gmail.com">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Validate form - 15 Projectos DEV</title>
+
+    <!-- Links css e icon -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+         <!-- main -->
+ <main class="main container">
+   <section class="form">
+      <article class="form-h">
+         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+            <path d="M12.633 7.653c0-.848-.305-1.435-.566-1.892l-.08-.13c-.317-.51-.594-.958-.594-1.48 0-.63.478-1.218 1.152-1.218.02 0 .039.002.058.003l.031.003A6.838 6.838 0 0 0 8 1.137 6.855 6.855 0 0 0 2.266 4.23c.16.005.313.009.442.009.717 0 1.828-.087 1.828-.087.37-.022.414.521.044.565 0 0-.371.044-.785.065l2.5 7.434 1.5-4.506-1.07-2.929c-.369-.022-.719-.065-.719-.065-.37-.022-.326-.588.043-.566 0 0 1.134.087 1.808.087.718 0 1.83-.087 1.83-.087.37-.022.413.522.043.566 0 0-.372.043-.785.065l2.48 7.377.684-2.287.054-.173c.27-.86.469-1.495.469-2.046zM1.137 8a6.864 6.864 0 0 0 3.868 6.176L1.73 5.206A6.837 6.837 0 0 0 1.137 8z" />
+            <path d="M6.061 14.583 8.121 8.6l2.109 5.78c.014.033.03.064.049.094a6.854 6.854 0 0 1-4.218.109zm7.96-9.876c.03.219.047.453.047.706 0 .696-.13 1.479-.522 2.458l-2.096 6.06a6.86 6.86 0 0 0 2.572-9.224z" />
+            <path fill-rule="evenodd" d="M0 8c0-4.411 3.589-8 8-8 4.41 0 8 3.589 8 8s-3.59 8-8 8c-4.411 0-8-3.589-8-8zm.367 0c0 4.209 3.424 7.633 7.633 7.633 4.208 0 7.632-3.424 7.632-7.633C15.632 3.79 12.208.367 8 .367 3.79.367.367 3.79.367 8z" />
+         </svg>
+      </article>
+      <form action="" class="form-m">
+         <div class="form-m-group">
+            <label for="name">Name</label>
+            <input type="text" class="input-text" id="fullName">
+            <span class="valid" id="valid-name"></span>
+         </div>
+         <div class="form-m-group">
+            <label for="user">User</label>
+            <input type="text" id="user" class="input-text">
+            <span class="valid" id="valid-user"></span>
+         </div>
+         <div class="form-m-group">
+            <label for="number">Number</label>
+            <input type="number" id="number" class="input-text">
+            <span class="valid" id="valid-number"></span>
+         </div>
+         <div class="form-m-group">
+            <label for="date">Date of birth</label>
+            <input type="text" id="date" class="input-text" placeholder="Ex: 05/05/2000">
+            <span class="valid" id="valid-date"></span>
+         </div>
+         <div class="form-m-group">
+            <label for="pass">Password</label>
+            <input type="password" class="input-text" id="pass">
+            <span class="valid" id="valid-pass"></span>
+         </div>
+         <div class="form-m-group">
+            <label for="confirmPass">Confirm password</label>
+            <input type="password" class="input-text" id="confirmPass">
+            <span class="valid" id="valid-confirm"></span>
+         </div>
+         <div class="form-m-submit">
+            <div class="form-m-checkbox">
+               <input type="checkbox" id="check">
+               <label for="check">accept terms and conditions</label>
+               <span class="valid" id="valid-terms"></span>
+            </div>
+            <input type="button" class="btn" id="btn-submit" value="Sign up">
+         </div>
+      </form>
+      <article class="form-f">
+         <p class="myCopy">All designed by © <span>Fillipe Pascoall</span></p>
+      </article>
+   </section>
+ </main>
+
+
+ <script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>

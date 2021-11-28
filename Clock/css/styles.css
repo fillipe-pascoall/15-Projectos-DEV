@@ -1,0 +1,92 @@
+/*
+ Este software foi criado pelo o programador abaixo!!!!
+
+     *Nome→ Fillipe Pascoall
+     *Nacionalidade→ Angolana
+     *E-mail→ pascoalfilipe5@gmail.com
+     *Morada→ Viana/ Luanda/ Angola
+     *Telefone→ +244 941556751
+     *Telegram→ @Fillipe5 / t.me/Fillipe5
+     *Facebook → Fillipe Pascoall
+     *Whatsapp→ +244 941556751 
+     *Instagram → @fillipe_pascoall
+     *CodePen → fillipe_pascoall
+     *GitHub → fillipe-pascoall
+
+*/
+
+
+* {
+   margin: 0;
+   padding: 0;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+body {
+   font-family: sans-serif;
+}
+.myCopy {
+	text-align: center;
+	font-size: .8rem;
+	color:rgba(255,255,255,0.5);
+}
+.myCopy span {
+	margin-left: 10px;
+}
+         /* main */
+main {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding-top: 4rem;
+}
+.container {
+   width: 100%;
+   height: auto;
+}
+main .clock {
+   width: 280px;
+   height: auto;
+   background-color: #192024;
+   border-radius: 8px;
+   padding: .5rem;
+   display: flex;
+   flex-direction: column;
+}
+main .clock .clock-h {
+   text-align: right;
+   padding: 1rem;
+}
+main .clock-h svg {
+   color: #fff;
+   width: 24px;
+   height: 24px;
+}
+main .clock .clock-m {
+   padding: 1rem;
+   color: #fff;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+main .clock-m p {
+   font-size: 1rem;
+}
+main .clock-m p:last-child {
+   color: #ddd;
+}
+main .clock-m .hour {
+   font-size: 6rem;
+}
+main .clock-m .min {
+   font-size: 2rem;
+}
+main .clock .clock-f {
+   padding: 1rem;
+   margin-top: 3rem;
+}
+
+
+/*          ****Aqui terminou****        */

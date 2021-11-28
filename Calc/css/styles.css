@@ -1,0 +1,109 @@
+/*
+ Este software foi criado pelo o programador abaixo!!!!
+
+     *Nome→ Fillipe Pascoall
+     *Nacionalidade→ Angolana
+     *E-mail→ pascoalfilipe5@gmail.com
+     *Morada→ Viana/ Luanda/ Angola
+     *Telefone→ +244 941556751
+     *Telegram→ @Fillipe5 / t.me/Fillipe5
+     *Facebook → Fillipe Pascoall
+     *Whatsapp→ +244 941556751 
+     *Instagram → @fillipe_pascoall
+     *CodePen → fillipe_pascoall
+     *GitHub → fillipe-pascoall
+
+*/
+
+body {
+   font-family: sans-serif;
+}
+.myCopy {
+	text-align: center;
+	font-size: .8rem;
+	color:rgba(255,255,255,0.5);
+}
+.myCopy span {
+	margin-left: 10px;
+}
+
+         /* main */
+main {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding-top: 4rem;
+}
+.container {
+   width: 100%;
+   height: auto;
+}
+main section {
+   width: 280px;
+   height: auto;
+   background-color: #202320;
+   padding: .5rem;
+   display: flex;
+   flex-direction: column;
+}
+main .form {
+   display: flex;
+   flex-direction: column;
+   margin-bottom: 2rem;
+   margin-top: 2rem;
+}
+main .form-input {
+   padding: .5em;
+   padding-right: 1rem;
+   text-align: right;
+   margin-bottom: .5rem;
+   background-color: transparent;
+   border: none;
+   outline: none;
+   font-family: sans-serif;
+}
+main .form-input:first-child {
+   font-size: 2rem;
+   color: #fff;
+}
+main .form-input:last-child {
+   font-size: 1.4rem;
+   color: #aaa;
+}
+
+main .btn {
+   width: 56px;
+   height: 56px;
+   background-color: transparent;
+   color: #fff;
+   font-size: 1.7rem;
+   font-family: sans-serif;
+   line-height: 2;
+   border: none;
+   margin: .3rem;
+   outline: none;
+   padding: 0;
+   border-radius: 100%;
+}
+main .tools {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+main .tools .btn {
+   background-color: #414141;
+}
+main .tools .btn:first-child {
+   font-size: 1.5rem;
+}
+main .numbers {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+main .numbers .btn:last-child {
+   background-color: #FE9D12;
+}
+
+
+/*          ****Aqui terminou****        */

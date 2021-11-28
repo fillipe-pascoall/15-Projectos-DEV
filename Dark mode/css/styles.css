@@ -1,0 +1,96 @@
+/*
+ Este software foi criado pelo o programador abaixo!!!!
+
+     *Nome→ Fillipe Pascoall
+     *Nacionalidade→ Angolana
+     *E-mail→ pascoalfilipe5@gmail.com
+     *Morada→ Viana/ Luanda/ Angola
+     *Telefone→ +244 941556751
+     *Telegram→ @Fillipe5 / t.me/Fillipe5
+     *Facebook → Fillipe Pascoall
+     *Whatsapp→ +244 941556751 
+     *Instagram → @fillipe_pascoall
+     *CodePen → fillipe_pascoall
+     *GitHub → fillipe-pascoall
+
+*/
+
+* {
+   margin: 0;
+   padding: 0;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+body {
+   font-family: sans-serif;
+   background-color: #fff;
+}
+.myCopy {
+	text-align: center;
+   font-size: .8rem;
+	color:rgba(0,0,0,0.5);
+}
+.myCopy span {
+	margin-left: 10px;
+}
+         /* main */
+main {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding-top: 4rem;
+}
+.container {
+   width: 100%;
+   height: auto;
+}
+main .dark {
+   width: 280px;
+   height: auto;
+   background-color: #f5f5f5;
+   padding: .5rem;
+   display: flex;
+   flex-direction: column;
+   border: 1px solid #202124;
+   border-radius: 8px;
+}
+main .dark .dark-h {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 1.5rem;
+}
+main .dark-h svg {
+   width: 38px;
+   height: 38px;
+}
+main .dark .dark-m {
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   padding: 1rem;
+}
+main .dark-m p {
+   font-weight: 300;
+   padding-bottom: 2rem;
+}
+main .dark-m .btn {
+   padding: .8rem 1rem;
+   margin: 1px auto;
+   background-color: #202124;
+   color: #fff;
+   border: 1px solid #f5f5f5;
+   border-radius: 6px;
+   outline: none;
+   font-size: 1.2rem;
+}
+main .dark .dark-f {
+   padding: 1rem;
+   margin-top: 1rem;
+}
+
+
+
+
+/*          ****Aqui terminou****        */

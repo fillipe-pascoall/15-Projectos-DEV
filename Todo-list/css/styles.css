@@ -1,0 +1,134 @@
+/*
+ Este software foi criado pelo o programador abaixo!!!!
+
+     *Nome→ Fillipe Pascoall
+     *Nacionalidade→ Angolana
+     *E-mail→ pascoalfilipe5@gmail.com
+     *Morada→ Viana/ Luanda/ Angola
+     *Telefone→ +244 941556751
+     *Telegram→ @Fillipe5 / t.me/Fillipe5
+     *Facebook → Fillipe Pascoall
+     *Whatsapp→ +244 941556751 
+     *Instagram → @fillipe_pascoall
+     *CodePen → fillipe_pascoall
+     *GitHub → fillipe-pascoall
+
+*/
+
+:root {
+		--cor: #2D8CBC; 
+}
+* {
+   margin: 0;
+   padding: 0;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+body {
+   font-family: sans-serif;
+   background-color: var(--cor);
+}
+.myCopy {
+	text-align: center;
+	font-size: .8em;
+	color:rgba(0,0,0,0.5);
+}
+.myCopy span {
+	margin-left: 10px;
+}
+         /* main */
+main {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding-top: 50%;
+   padding-bottom: 50%;
+}
+.container {
+   width: 100%;
+   height: auto;
+}
+main .task {
+   width: 280px;
+   height: auto;
+   background-color: #fff;
+   display: flex;
+   flex-direction: column;
+}
+main .task-h {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: .8rem;
+   background-color: #f5f5f5;
+}
+main .task-h p {
+   display: flex;
+   flex-direction: column;
+   color: #555;
+}
+main .task-h p .weeks {
+   font-size: 2rem;
+   color: var(--cor);
+   margin-bottom: .6rem;
+}
+main .task-h .btn {
+   width: 60px;
+   height: 30px;
+   background-color: var(--cor);
+   color: #fff;
+   outline: none;
+   border: 1px solid var(--cor);
+   border-radius: 4px;
+}
+main .task-b {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: .5rem;
+   padding-top: 1rem;
+}
+main .task-b .form-input {
+   width: 80%;
+   padding: 1rem;
+   padding-left: .8rem;
+   outline: none;
+   border: 1px solid var(--cor);
+   border-radius: 50px;
+}
+main .task-b .error {
+   border: 1px solid #FF0C0C;
+}
+main .task-b .btn {
+   width: 46px;
+   height: 46px;
+   background-color: var(--cor);
+   color: #fff;
+   font-size: 2rem;
+   font-weight: 300;
+   border: 1px solid var(--cor);
+   border-radius: 50%;
+   outline: none;
+}
+main .task-m {
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   padding: 1rem .5rem;
+}
+main .task-stored {
+   padding: 1rem .5rem;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   border: 1px solid var(--cor);
+   border-radius: 5px;
+   margin-bottom: .5rem;
+}
+main .task-f {
+   padding: 1rem;
+}
+
+
+/*          ****Aqui terminou****        */

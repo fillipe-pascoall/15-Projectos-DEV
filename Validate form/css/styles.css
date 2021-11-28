@@ -1,0 +1,144 @@
+/*
+ Este software foi criado pelo o programador abaixo!!!!
+
+     *Nome→ Fillipe Pascoall
+     *Nacionalidade→ Angolana
+     *E-mail→ pascoalfilipe5@gmail.com
+     *Morada→ Viana/ Luanda/ Angola
+     *Telefone→ +244 941556751
+     *Telegram→ @Fillipe5 / t.me/Fillipe5
+     *Facebook → Fillipe Pascoall
+     *Whatsapp→ +244 941556751 
+     *Instagram → @fillipe_pascoall
+     *CodePen → fillipe_pascoall
+     *GitHub → fillipe-pascoall
+
+*/
+
+:root {
+		--cor: #2D8CBC; 
+}
+* {
+   margin: 0;
+   padding: 0;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+body {
+   font-family: sans-serif;
+}
+.myCopy {
+	text-align: center;
+   font-size: .8rem;
+	color:rgba(0,0,0,0.5);
+}
+.myCopy span {
+	margin-left: 10px;
+}
+         /* main */
+main {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding-top: 4rem;
+}
+.container {
+   width: 100%;
+   height: auto;
+}
+main .form {
+   width: 280px;
+   height: auto;
+   background-color: #fff;
+   padding: .5rem;
+   display: flex;
+   flex-direction: column;
+}
+main .form .form-h {
+   display: flex;
+   justify-content: center;
+   padding: 1rem;
+   margin-bottom: 2rem;
+}
+main .form-h svg {
+   width: 56px;
+   height: 56px;
+}
+main .form-m {
+   display: flex;
+   flex-direction: column;
+}
+main .form-m-group {
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+   margin-bottom: 1rem;
+}
+main .form-m label {
+   margin-bottom: .6rem;
+   margin-left: .4rem;
+   width: 100%;
+}
+main .form-m .input-text {
+   border: 1px solid #bbb;
+   border-radius: 8px;
+   font-size: 1rem;
+   padding: .8rem 1rem;
+   padding-left: .8rem;
+   margin-bottom: .4rem;
+   outline: none;
+}
+main .form-m .valid {
+   font-size: .89rem;
+   color: #F02E2E;
+}
+main .form-m .btn {
+   width: 100%;
+   background-color: var(--cor);
+   color: #fff;
+   font-size: 1.3rem;
+   padding: .8rem;
+   border: 1px solid var(--cor);
+   border-radius: 8px;
+   outline: none;
+}
+main .form-m .form-m-submit {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   margin: 1rem 0;
+   margin-bottom: 2rem;
+}
+main .form-m .form-m-checkbox {
+   display: flex;
+   align-items: center;
+   margin-bottom: 1rem;
+}
+
+main .form-m-checkbox #check {
+   margin-bottom: 7px;
+}
+main .form .form-f {
+   padding: 1rem;
+}
+
+@media screen and (min-width: 780px) {
+   main .form {
+      width: 600px;
+      border: 1px solid #aaa;
+      padding: 1rem;
+   }
+   main .form-m {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+   }
+   main .form-m .form-m-group {
+      width: 48%;
+   }
+}
+
+
+
+/*          ****Aqui terminou****        */

@@ -1,0 +1,106 @@
+/*
+ Este software foi criado pelo o programador abaixo!!!!
+
+     *Nome→ Fillipe Pascoall
+     *Nacionalidade→ Angolana
+     *E-mail→ pascoalfilipe5@gmail.com
+     *Morada→ Viana/ Luanda/ Angola
+     *Telefone→ +244 941556751
+     *Telegram→ @Fillipe5 / t.me/Fillipe5
+     *Facebook → Fillipe Pascoall
+     *Whatsapp→ +244 941556751 
+     *Instagram → @fillipe_pascoall
+     *CodePen → fillipe_pascoall
+     *GitHub → fillipe-pascoall
+
+*/
+
+:root {
+		--cor: #2D8CBC; 
+}
+* {
+   margin: 0;
+   padding: 0;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+body {
+   font-family: sans-serif;
+   background-color: #f5f5f5;
+}
+.myCopy {
+	text-align: center;
+   font-size: .8rem;
+	color:rgba(0,0,0,0.5);
+}
+.myCopy span {
+	margin-left: 10px;
+}
+         /* main */
+main {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding-top: 4rem;
+}
+.container {
+   width: 100%;
+   height: auto;
+}
+main .chron {
+   width: 280px;
+   height: auto;
+   background-color: #fff;
+   padding: .5rem;
+   display: flex;
+   flex-direction: column;
+   box-shadow: 2px 2px 20px #aaa;
+}
+main .chron .chron-h {
+   text-align: center;
+   word-spacing: 3px;
+   padding: 1rem;
+}
+main .chron-h span {
+   font-size: 3rem;
+   font-weight: 300;
+}
+main .chron-h .mil-seconds {
+   font-size: 2rem;
+}
+main .chron .chron-m {
+   display: flex;
+   align-items: center;
+   padding: 1rem .5rem;
+}
+main .chron-m .btn {
+   background-color: var(--cor);
+   color: #fff;
+   border: 1px solid var(--cor);
+   border-radius: 6px;
+   font-size: 1rem;
+   padding-top: .6rem;
+   padding-bottom: .6rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   outline: none;
+   margin: .5rem .3rem;
+}
+main .chron-m .btn:first-child {
+   width: 80%;
+}
+main .chron-m .btn:last-child {
+   width: 20%;
+}
+main .chron-m svg {
+   width: 20px;
+   height: 20px;
+}
+main .chron .chron-f {
+   padding: 1rem;
+}
+
+
+/*          ****Aqui terminou****        */

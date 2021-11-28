@@ -1,0 +1,121 @@
+/*
+ Este software foi criado pelo o programador abaixo!!!!
+
+     *Nome→ Fillipe Pascoall
+     *Nacionalidade→ Angolana
+     *E-mail→ pascoalfilipe5@gmail.com
+     *Morada→ Viana/ Luanda/ Angola
+     *Telefone→ +244 941556751
+     *Telegram→ @Fillipe5 / t.me/Fillipe5
+     *Facebook → Fillipe Pascoall
+     *Whatsapp→ +244 941556751 
+     *Instagram → @fillipe_pascoall
+     *CodePen → fillipe_pascoall
+     *GitHub → fillipe-pascoall
+
+*/
+
+:root {
+		--cor: #2D8CBC; 
+}
+* {
+   margin: 0;
+   padding: 0;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+body {
+   font-family: sans-serif;
+}
+.myCopy {
+	text-align: center;
+   font-size: .8rem;
+	color:rgba(0,0,0,0.5);
+}
+.myCopy span {
+	margin-left: 10px;
+}
+         /* main */
+main {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding-top: 4rem;
+}
+.container {
+   width: 100%;
+   height: auto;
+}
+main .content {
+   width: 240px;
+   height: auto;
+   background-color: #fff;
+   padding: .5rem;
+   margin-top: 8rem;
+   display: flex;
+   flex-direction: column;
+   position: absolute;
+}
+main .content h2 {
+   text-align: center;
+}
+main .content h2 + p {
+   font-weight: 300;
+   margin: 1rem 0;
+   text-align: justify;
+}
+main .content .btn {
+   width: 100%;
+   background-color: var(--cor);
+   color: #fff;
+   padding: .5rem;
+   border: 1px solid var(--cor);
+   border-radius: 4px;
+   font-size: 1.2rem;
+   outline: none;
+}
+main .modal {
+   width: 280px;
+   height: auto;
+   background-color: #fff;
+   box-shadow: 2px 2px 60px #aaa;
+   padding: .5rem;
+   transition: top .3s linear;
+   flex-direction: column;
+   position: absolute;
+   top: -500px;
+   left: 50%;
+   transform: translateX(-50%);
+}
+main .modal .modal-m {
+   padding: 1rem .5rem;
+}
+main .modal .modal-h {
+   padding: .5em;
+   text-align: center;
+}
+main .modal-m p {
+   text-align: justify;
+}
+main .modal .modal-f {
+   padding: .5rem;
+   display: flex;
+   justify-content: flex-end;
+}
+main .modal-f .btn {
+   background-color: var(--cor);
+   color: #fff;
+   padding: .5rem;
+   border: 1px solid var(--cor);
+   border-radius: 4px;
+   font-size: 1rem;
+   outline: none;
+}
+main .content-f {
+   padding: 1rem .3rem;
+   margin-top: 2rem;
+}
+
+
+/*          ****Aqui terminou****        */

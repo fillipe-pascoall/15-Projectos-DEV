@@ -1,0 +1,82 @@
+/*
+ Este software foi criado pelo o programador abaixo!!!!
+
+     *Nome→ Fillipe Pascoall
+     *Nacionalidade→ Angolana
+     *E-mail→ pascoalfilipe5@gmail.com
+     *Morada→ Viana/ Luanda/ Angola
+     *Telefone→ +244 941556751
+     *Telegram→ @Fillipe5 / t.me/Fillipe5
+     *Facebook → Fillipe Pascoall
+     *Whatsapp→ +244 941556751 
+     *Instagram → @fillipe_pascoall
+     *CodePen → fillipe_pascoall
+     *GitHub → fillipe-pascoall
+
+*/
+
+:root {
+		--cor: #2D8CBC; 
+}
+* {
+   margin: 0;
+   padding: 0;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+body {
+   font-family: sans-serif;
+}
+.myCopy {
+	text-align: center;
+   font-size: .8rem;
+	color:rgba(0,0,0,0.5);
+}
+.myCopy span {
+	margin-left: 10px;
+}
+         /* main */
+main {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding-top: 4rem;
+}
+.container {
+   width: 100%;
+   height: auto;
+}
+main .gallery {
+   width: 300px;
+   height: auto;
+   background-color: #fff;
+   padding: .5rem;
+   display: flex;
+   flex-direction: column;
+}
+main .gallery .image-current {
+   width: 100%;
+   height: 280px;
+   border: 1px solid #aaa;
+   border-radius: 4px;
+}
+main .gallery .gallery-m {
+   width: 100%;
+   display: flex;
+   padding-top: 1rem;
+}
+main .gallery-m .image {
+   width: 33,33333333%;
+   height: 90px;
+   border: 1px solid #aaa;
+   border-radius: 4px;
+   margin: 0 .1rem;
+}
+main .gallery-f {
+   padding: 1rem;
+   margin-top: 2rem;
+}
+
+
+/*          ****Aqui terminou****        */
